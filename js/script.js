@@ -24,7 +24,7 @@ function GetEstudiantes() {
     showData(data.students);
   })
   .catch(function(error) {
-    console.error('There was a problem with the fetch operation:', error);
+    console.error('Ocurrio un error', error);
   });
 }
 GetEstudiantes();
